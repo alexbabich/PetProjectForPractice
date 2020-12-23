@@ -11,8 +11,9 @@
 		553223C325330C7D00130CD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553223C225330C7D00130CD7 /* ContentView.swift */; };
 		553223C525330C8000130CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553223C425330C8000130CD7 /* Assets.xcassets */; };
 		553223C825330C8000130CD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553223C725330C8000130CD7 /* Preview Assets.xcassets */; };
-		553223CA25330C8000130CD7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553223C925330C8000130CD7 /* Persistence.swift */; };
 		553223CD25330C8000130CD7 /* crmShug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 553223CB25330C8000130CD7 /* crmShug.xcdatamodeld */; };
+		5585B5312579222B0010B4BD /* CourseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5585B5302579222B0010B4BD /* CourseDataModel.swift */; };
+		55C571A0259350B00048DF0C /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5719F259350B00048DF0C /* LoginFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		553223C225330C7D00130CD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		553223C425330C8000130CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553223C725330C8000130CD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		553223C925330C8000130CD7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		553223CC25330C8000130CD7 /* crmShug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crmShug.xcdatamodel; sourceTree = "<group>"; };
 		553223CE25330C8000130CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5585B5302579222B0010B4BD /* CourseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataModel.swift; sourceTree = "<group>"; };
+		55C5719F259350B00048DF0C /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		553223BF25330C7D00130CD7 /* crmShug */ = {
 			isa = PBXGroup;
 			children = (
+				55C5719E2593508D0048DF0C /* Views */,
+				5585B52F257920EF0010B4BD /* ModelData */,
 				553223C025330C7D00130CD7 /* crmShugApp.swift */,
 				553223C225330C7D00130CD7 /* ContentView.swift */,
 				553223C425330C8000130CD7 /* Assets.xcassets */,
-				553223C925330C8000130CD7 /* Persistence.swift */,
 				553223CE25330C8000130CD7 /* Info.plist */,
 				553223CB25330C8000130CD7 /* crmShug.xcdatamodeld */,
 				553223C625330C8000130CD7 /* Preview Content */,
@@ -73,6 +76,22 @@
 				553223C725330C8000130CD7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5585B52F257920EF0010B4BD /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				5585B5302579222B0010B4BD /* CourseDataModel.swift */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		55C5719E2593508D0048DF0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55C5719F259350B00048DF0C /* LoginFormView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553223CA25330C8000130CD7 /* Persistence.swift in Sources */,
+				5585B5312579222B0010B4BD /* CourseDataModel.swift in Sources */,
 				553223CD25330C8000130CD7 /* crmShug.xcdatamodeld in Sources */,
+				55C571A0259350B00048DF0C /* LoginFormView.swift in Sources */,
 				553223C325330C7D00130CD7 /* ContentView.swift in Sources */,
 				553223C125330C7D00130CD7 /* crmShugApp.swift in Sources */,
 			);
