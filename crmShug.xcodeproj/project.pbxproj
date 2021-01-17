@@ -14,6 +14,8 @@
 		553223CD25330C8000130CD7 /* crmShug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 553223CB25330C8000130CD7 /* crmShug.xcdatamodeld */; };
 		5585B5312579222B0010B4BD /* CourseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5585B5302579222B0010B4BD /* CourseDataModel.swift */; };
 		55C571A0259350B00048DF0C /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5719F259350B00048DF0C /* LoginFormView.swift */; };
+		8826D91D25AC586C0081CFCA /* LoginFormInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826D91C25AC586C0081CFCA /* LoginFormInputField.swift */; };
+		8826D92025AC5C590081CFCA /* LoginSingupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826D91F25AC5C590081CFCA /* LoginSingupForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		553223CE25330C8000130CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5585B5302579222B0010B4BD /* CourseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataModel.swift; sourceTree = "<group>"; };
 		55C5719F259350B00048DF0C /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		8826D91C25AC586C0081CFCA /* LoginFormInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormInputField.swift; sourceTree = "<group>"; };
+		8826D91F25AC5C590081CFCA /* LoginSingupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSingupForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				55C5719F259350B00048DF0C /* LoginFormView.swift */,
+				8826D91C25AC586C0081CFCA /* LoginFormInputField.swift */,
+				8826D91F25AC5C590081CFCA /* LoginSingupForm.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 				5585B5312579222B0010B4BD /* CourseDataModel.swift in Sources */,
 				553223CD25330C8000130CD7 /* crmShug.xcdatamodeld in Sources */,
 				55C571A0259350B00048DF0C /* LoginFormView.swift in Sources */,
+				8826D91D25AC586C0081CFCA /* LoginFormInputField.swift in Sources */,
 				553223C325330C7D00130CD7 /* ContentView.swift in Sources */,
+				8826D92025AC5C590081CFCA /* LoginSingupForm.swift in Sources */,
 				553223C125330C7D00130CD7 /* crmShugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

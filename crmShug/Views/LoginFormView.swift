@@ -19,27 +19,9 @@ struct LoginFormView: View {
             
             VStack(alignment: .center, spacing: 20) {
                 
-                TextField("Email or username", text: $username)
-                    .cornerRadius(5.0)
-                    .padding(.all)
-                    .foregroundColor(.white)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.black, lineWidth: 2)
-                    )
-                    .frame(width: getWidth())
-                    .shadow(color: .black, radius: 20.0, x: 5.0, y: 5.0)
+                LoginFormInputField(textInput: "Email or username", placeholder: username)
                 
-                TextField("Password", text: $password)
-                    .cornerRadius(5.0)
-                    .padding(.all)
-                    .foregroundColor(.white)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.black, lineWidth: 2)
-                    )
-                    .frame(width: getWidth())
-                    .shadow(color: .black, radius: 20.0, x: 5.0, y: 5.0)
+                LoginFormInputField(textInput: "Password", placeholder: password)
                 
                 Button(action: {
                     print("User \(self.username) is login with pass \(self.password)")
@@ -61,10 +43,6 @@ struct LoginFormView: View {
             }
         }
         .edgesIgnoringSafeArea(.all)
-    }
-    
-    func getWidth() -> CGFloat {
-        return UIScreen.main.bounds.width / 1.5
     }
 }
 
